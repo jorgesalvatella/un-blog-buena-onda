@@ -9,6 +9,7 @@ body {
 .container {
     background-color: #1E1E1E; /* Un gris muy oscuro como fondo del contenedor */
     max-width: 800px;
+    border-radius: 10px;
     margin: auto;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
