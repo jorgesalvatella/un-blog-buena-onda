@@ -14,6 +14,25 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+#cabecera {
+    background-color: #007BFF; /* Color de fondo azul brillante */
+    color: white; /* Texto en color blanco */
+    font-size: 20px; /* Tamaño del texto */
+    padding: 15px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 30px; /* Margen inferior para separación */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Sombra con efecto 3D */
+    transition: all 0.3s ease-in-out; /* Transición suave para efectos de hover */
+}
+
+#cabecera:hover {
+    box-shadow: 0 12px 24px rgba(0,0,0,0.25); /* Sombra más prominente al pasar el mouse */
+    transform: translateY(-2px); /* Efecto de levitación ligera */
+}
+
+
+
 h1 {
     color: #ffffff;
     font-size: 24px;
